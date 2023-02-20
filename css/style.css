@@ -70,6 +70,17 @@ ul.lnb{
 
 .hero{
     height:300px;
+    position:relative;
+    overflow:hidden;
+}
+.slidein{
+    width:3600px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.slidein>img{
+    float:left;
 }
 .main{
     height:200px;
