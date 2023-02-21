@@ -94,6 +94,47 @@ ul.lnb{
     width:40%;
     padding:10px;
 }
+.tab{
+    list-style-type:none;
+    display:flex;
+    margin:0;
+    padding:0;
+    justify-content: flex-start;
+    padding-left:10px;
+}
+.tab a{
+    display:block;
+    line-height:35px;
+    background:#f6c453;
+    color:#c59a36;
+    padding-left:15px;
+    padding-right:15px;
+}
+.tab a.active{
+    background:#ffe3a0;
+    color:#222328;
+    font-weight:bold;
+}
+.tab-content{
+    background-color:#ffe3a0;
+    padding:7px 20px 5px;
+}
+.tab-content>div{
+    display:none;
+}
+.tab-content>div.active{
+    display:block;
+}
+#notice li{
+    border-bottom:1px dashed #757782;
+    transition: all 300ms;
+}
+#notice li:hover{
+    background-color:#f6c453;
+}
+#notice a{
+    line-height:15px;
+}
 .banner,.quick{
     width:30%;
     padding:10px;
