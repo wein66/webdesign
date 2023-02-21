@@ -135,10 +135,44 @@ ul.lnb{
 #notice a{
     line-height:15px;
 }
+#gallery{
+    text-align:center;
+}
+#gallery img{
+    width:120px;
+    height:120px;
+    margin: 10px 8px 9px;
+    object-fit: cover;
+}
 .banner,.quick{
     width:30%;
     padding:10px;
 }
+.banner img{
+    margin-bottom:3px;
+}
 footer{
     height:100px;
+    background-color:#8a8d9c;
+    color:#fff;
+    display:flex;
+}
+.logoarea{
+    padding:30px 20px 0;
+    width:20%;
+}
+.copyarea{
+    width:60%;
+    text-align:center;
+}
+.copyarea p{
+    margin:0;
+    padding:0;
+    margin-top:5px;
+}
+.copyarea p:first-child{
+    margin-top:10px;
+}
+.snsarea{
+    width:20%;
 }
