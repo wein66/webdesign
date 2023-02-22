@@ -148,6 +148,17 @@ ul.lnb{
     width:30%;
     padding:10px;
 }
+.quick{
+    height:100%;
+}
+.quick div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%;
+    background:#ddd;
+}
 .banner img{
     margin-bottom:3px;
 }
@@ -175,4 +186,46 @@ footer{
 }
 .snsarea{
     width:20%;
+    margin-top:24px;
+}
+a.sns{
+    display:inline-block;
+    text-indent: -5000px;
+    width:50px;
+    height:50px;
+    border-radius:8px;
+    margin-left:10px;
+    background:url(../images/sns.jpg) no-repeat;
+    background-size:515%;
+}
+a.sns.facebook{
+    background-position: -45px -9px; 
+}
+a.sns.twitter{
+    background-position: -105px -69px;
+}
+a.sns.youtube{
+    background-position: -45px -69px; 
+}
+
+.popup{
+    width: 550px;
+    position:fixed;
+    top:250px;
+    background:#fff;
+    /* left: calc(50% - 225px); */
+    left:50%;
+    transform: translateX(-50%);
+    padding:40px;
+    border-radius:10px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    display:none;
+}
+.closebtn{
+    text-align:center;
+    margin-top:50px;
+}
+.close{
+    padding:5px 20px;
+    font-size:16px;
 }

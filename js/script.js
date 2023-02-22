@@ -36,4 +36,13 @@ $(function(){
        $("#"+myid).addClass('active'); //가져온 data-idx 값과 같은 tab-content에 active를 추가한다.
     }) 
 
+    //공지사항
+    $('.pop').click(function(e){
+       e.preventDefault();
+       $('.popup').fadeIn(500);
+    });
+    $('.close').click(function(){
+       $('.popup').fadeOut(500);
+    });
+
 });  //jquery
